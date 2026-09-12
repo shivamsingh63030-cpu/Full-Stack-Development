@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>University Registration Form</h1>
+        <p> please fill out the form below:</p>
+        <hr>
+        <h2>Personal details</h2>
+       <lable for="name">First Name:</lable>
+       <input type="text" id="name" name="name" required>
+       <br><br>
+       <lable for="surname">Last Name:</lable>
+       <input type="text" id="surname" name="surname" required >
+       <br><br>
+       <lable for="DOB">DOB</lable>
+       <input type="date" id="DOB" name="DOB">
+       <br><br>
+      <h3>Gender:</h3>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label>
+      <br><br>
+      <h3>Upload your photo</h3>
+        <input type="file"  name="file">
+        <hr>
+        <h2>Contact Information</h2>
+        <lable for  ="email">Email:</lable>
+        <input type="email" id="email" name="email">
+        <br><br>        
+        <lable for="phone number">Phone Number:</lable>
+        <input type="tel" id="phone number" name="phone number" required>    
+        <br><br>
+        <lable for="address">Mailing Address:</lable>
+        <br><br>
+        <textarea id="address" name="address"></textarea>
+
+        <hr>
+        <h2>Academic Courses</h2>
+        <lable for="course">Select your Course </lable>
+        <select id="course" name="course"></select>
+
+       <p>Extracurricular Activities:</p>
+        <lable for="Sports">Sports</lable>
+        <input type="checkbox" name="activities" id="Sports" value="sports">
+        <br><br>
+        <lable for="Music">Music</lable>
+        <input type="checkbox" name="activities" id="Music" value="music">
+        <br><br>
+        <lable for="Art">Art</lable>
+        <input type="checkbox" name="activities" id="Art" value="art">
+        <br><br>
+        <lable for="Dance">Dance</lable>
+        <input type="checkbox" name="activities" id="Dance" value="dance">
+        <br><br>
+        <hr>
+        <h2>Create your Account</h2>
+        <lable for="password">Password:</lable>
+        <input type="password" id="password" name="password">
+        <br><br>
+        <lable for="question">Security Question:</lable>
+        <select id="question" name="question">
+            <option value="pet">What is your pet's name?</option>
+            </select>
+            <br><br>
+            <lable for="answer"> Security Answer:</lable>
+            <input type="text" id="answer" name="answer">
+        <br><br>
+        <lable for="terms">I agree to the terms and conditions</lable>
+        <input type="checkbox" id="terms" name="terms" value="agree">
+        <br><br>
+        <hr>
+        <button type="submit">Register</button>
+        <button type="reset">Clear form</button>
+
+    </form>
+</body>
+</html>
+
+
+
